@@ -99,3 +99,96 @@
 @media (max-width: 560px) {
   .team-grid { grid-template-columns: 1fr; }
 }
+
+.cases {
+  padding: 60px 20px;
+  background: #f5f7fb;
+}
+
+.cases h2 {
+  text-align: center;
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.cases-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+.case-card {
+  background: #fff;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  min-width: 0;
+}
+
+.case-card__id {
+  color: #2196f3;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.case-card h3 {
+  font-size: 21px;
+  margin: 12px 0 20px;
+}
+
+.role-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.role-tags li {
+  background: #e3f2fd;
+  color: #1565c0;
+  padding: 7px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+details {
+  border-top: 1px solid #ddd;
+  padding-top: 15px;
+}
+
+summary {
+  cursor: pointer;
+  font-weight: 700;
+  color: #2196f3;
+}
+
+details ol {
+  padding-left: 22px;
+  line-height: 1.7;
+}
+
+details li {
+  margin-top: 8px;
+}
+
+@media (max-width: 768px) {
+  .cases-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 375px) {
+  .cases {
+    padding: 40px 12px;
+  }
+
+  .cases h2 {
+    font-size: 25px;
+  }
+
+  .case-card {
+    padding: 18px;
+  }
+}
