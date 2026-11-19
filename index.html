@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main>
+        <section class="team-map" aria-labelledby="team-title">
+  <div class="team-grid">
+
+  <!-- UI/UX Designer -->
+  <article class="team-card" data-team="design">
+    <div class="team-card__top">
+      <span class="team-card__icon" aria-hidden="true">🎨</span>
+      <div>
+        <p class="team-card__direction">Design</p>
+        <h3>UI/UX Designer</h3>
+      </div>
+    </div>
+
+    <p>Створює зручний та зрозумілий дизайн сайту.</p>
+
+    <details>
+      <summary>Що передає FrontEnd-розробнику?</summary>
+      <ul>
+        <li>Макети сторінок у Figma</li>
+        <li>Кольори, шрифти та відступи</li>
+        <li>Вигляд кнопок, форм і меню</li>
+      </ul>
+    </details>
+  </article>
+
+
+  <!-- Product Manager -->
+  <article class="team-card" data-team="product">
+    <div class="team-card__top">
+      <span class="team-card__icon" aria-hidden="true">💡</span>
+      <div>
+        <p class="team-card__direction">Product</p>
+        <h3>Product Manager</h3>
+      </div>
+    </div>
+
+    <p>Визначає, для кого створюється продукт і яку проблему він вирішує.</p>
+
+    <details>
+      <summary>Що передає Project Manager?</summary>
+      <ul>
+        <li>Ідею та мету продукту</li>
+        <li>Потреби користувачів</li>
+        <li>Основні функції сайту</li>
+      </ul>
+    </details>
+  </article>
+
+
+  <!-- Project Manager -->
+  <article class="team-card" data-team="management">
+    <div class="team-card__top">
+      <span class="team-card__icon" aria-hidden="true">📋</span>
+      <div>
+        <p class="team-card__direction">Management</p>
+        <h3>Project Manager</h3>
+      </div>
+    </div>
+
+    <p>Організовує роботу команди та контролює процес створення сайту.</p>
+
+    <details>
+      <summary>Що передає команді?</summary>
+      <ul>
+        <li>План роботи та список задач</li>
+        <li>Пріоритети й дедлайни</li>
+        <li>Розподіл завдань між учасниками</li>
+      </ul>
+    </details>
+  </article>
+
+
+  <!-- FrontEnd Developer -->
+  <article class="team-card" data-team="development">
+    <div class="team-card__top">
+      <span class="team-card__icon" aria-hidden="true">💻</span>
+      <div>
+        <p class="team-card__direction">Development</p>
+        <h3>FrontEnd Developer</h3>
+      </div>
+    </div>
+
+    <p>Перетворює дизайн на інтерактивну сторінку, яку бачить користувач.</p>
+
+    <details>
+      <summary>Що передає BackEnd-розробнику?</summary>
+      <ul>
+        <li>Готовий інтерфейс сайту</li>
+        <li>Форми та інтерактивні елементи</li>
+        <li>Запити для отримання даних</li>
+      </ul>
+    </details>
+  </article>
+
+
+  <!-- BackEnd Developer -->
+  <article class="team-card" data-team="development">
+    <div class="team-card__top">
+      <span class="team-card__icon" aria-hidden="true">⚙️</span>
+      <div>
+        <p class="team-card__direction">Development</p>
+        <h3>BackEnd Developer</h3>
+      </div>
+    </div>
+
+    <p>Розробляє серверну логіку та забезпечує роботу сайту з даними.</p>
+
+    <details>
+      <summary>Що передає QA Engineer?</summary>
+      <ul>
+        <li>Працюючі функції сайту</li>
+        <li>API та обробку даних</li>
+        <li>Готовий продукт для тестування</li>
+      </ul>
+    </details>
+  </article>
+
+
+  <!-- QA Engineer -->
+  <article class="team-card" data-team="quality">
+    <div class="team-card__top">
+      <span class="team-card__icon" aria-hidden="true">🧪</span>
+      <div>
+        <p class="team-card__direction">Quality</p>
+        <h3>QA Engineer</h3>
+      </div>
+    </div>
+
+    <p>Перевіряє сайт на помилки та оцінює якість його роботи.</p>
+
+    <details>
+      <summary>Що передає команді?</summary>
+      <ul>
+        <li>Звіти про знайдені помилки (Bug Reports)</li>
+        <li>Результати тестування</li>
+        <li>Рекомендації щодо виправлень</li>
+      </ul>
+    </details>
+  </article>
+
+</div>
+</section>
+
+<section class="team-map" aria-labelledby="team-title">
+  <div class="team-grid">
+    <article class="case-card">
+  <p class="case-card__id">CASE-01</p>
+  <h3>Кнопка виходить за межі картки</h3>
+
+  <ul class="role-tags" aria-label="Учасники вирішення">
+    <li>FrontEnd</li>
+    <li>QA</li>
+    <li>Designer</li>
+  </ul>
+
+  <details>
+    <summary>План команди</summary>
+    <ol>
+      <li>QA показує ширину екрана та кроки відтворення.</li>
+      <li>FrontEnd перевіряє width, padding і min-width.</li>
+      <li>Designer підтверджує поведінку довгого тексту.</li>
+    </ol>
+  </details>
+</article>
+
+<article class="case-card">
+  <p class="case-card__id">CASE-01</p>
+  <h3>Кнопка виходить за межі картки</h3>
+
+  <ul class="role-tags" aria-label="Учасники вирішення">
+    <li>FrontEnd</li>
+    <li>QA</li>
+    <li>Designer</li>
+  </ul>
+
+  <details>
+    <summary>План команди</summary>
+    <ol>
+      <li>QA показує ширину екрана та кроки відтворення.</li>
+      <li>FrontEnd перевіряє width, padding і min-width.</li>
+      <li>Designer підтверджує поведінку довгого тексту.</li>
+    </ol>
+  </details>
+</article>
+</div>
+</section>
+    </main>
+</body>
+</html>
